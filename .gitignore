@@ -1,0 +1,29 @@
+# Operating System Clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*.docx
+
+# Environment & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+*.log
+*.tmp
+*.ps1
+
+# Secrets & Live Credentials (Lab Data Only in Repo)
+*.pem
+*.key
+*.pfx
+secrets.json
+.env
+
+# Large Captures
+*.pcap
+*.pcapng
+*.zip
