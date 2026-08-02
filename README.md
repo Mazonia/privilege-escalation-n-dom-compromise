@@ -18,7 +18,6 @@ Operating under an **assumed-breach threat model**, the assessment demonstrated 
 | Attribute | Details |
 |---|---|
 | **Student Name** | Enoch Nana Tabi Oduro |
-| **Index Number** | CY376-2026-REG |
 | **Course Code** | CY376: Network Monitoring, Security and Auditing |
 | **Project Track** | Red Team Assumed-Breach Penetration Test |
 | **Submission Date** | Monday, 3rd August 2026 |
