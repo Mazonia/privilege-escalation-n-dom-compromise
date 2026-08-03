@@ -34,7 +34,7 @@ Operating under an **assumed-breach threat model**, the assessment demonstrated 
 - **Misconfigurations Chained**: 10 Structural & Delegated Flaws
 - **Target Domain Controller**: `DC01` (`172.16.8.3`)
 - **Target Member Server**: `MS01` (`172.16.8.50`)
-- **Full Report**: Available in [`docs/INLANEFREIGHT_AD_Compromise_Report.docx`](docs/INLANEFREIGHT_AD_Compromise_Report.docx) and [`docs/INLANEFREIGHT_AD_Compromise_Report.pdf`](docs/INLANEFREIGHT_AD_Compromise_Report.pdf)
+- **Full Report & Slides**: Available in [`docs/INLANEFREIGHT_AD_Compromise_Report.docx`](docs/INLANEFREIGHT_AD_Compromise_Report.docx), [`docs/INLANEFREIGHT_AD_Compromise_Report.pdf`](docs/INLANEFREIGHT_AD_Compromise_Report.pdf), and [`docs/INLANEFREIGHT_AD_Compromise_Presentation.pptx`](docs/INLANEFREIGHT_AD_Compromise_Presentation.pptx)
 
 ---
 
@@ -44,9 +44,10 @@ Operating under an **assumed-breach threat model**, the assessment demonstrated 
 privilege-escalation-n-dom-compromise/
 ├── README.md                      # Primary project overview, setup, and attack chain walkthrough
 ├── .gitignore                     # Git exclusion rules for secrets, large captures, and venvs
-├── docs/                          # Bound PDF and Word report submissions (15+ page floor)
+├── docs/                          # Report and 10-minute presentation slides submissions
 │   ├── INLANEFREIGHT_AD_Compromise_Report.docx
-│   └── INLANEFREIGHT_AD_Compromise_Report.pdf
+│   ├── INLANEFREIGHT_AD_Compromise_Report.pdf
+│   └── INLANEFREIGHT_AD_Compromise_Presentation.pptx
 ├── scripts/                       # Red Team execution scripts and automation playbooks
 │   ├── attack_chain_playbook.sh   # Full CLI command invocation playbook
 │   ├── bloodhound_enum.sh         # AD LDAP graph enumeration script
